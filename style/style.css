@@ -48,7 +48,7 @@ table {
 }
 
 .home {
-	background-color: black;
+	background-color: #000;
 	height: 689px; /*1042px*/
 	padding-top: 353px;
 }
@@ -66,5 +66,9 @@ table {
 	
 }
 
+header {
+	background-color: #000;
+	text-align: center;
+}
 
 
