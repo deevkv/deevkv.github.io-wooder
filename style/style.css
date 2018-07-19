@@ -51,6 +51,7 @@ table {
 	background-color: #000;
 	height: 689px; /*1042px*/
 	padding-top: 353px;
+	padding-left: 20px;
 }
 
 .brand-name {
@@ -60,7 +61,6 @@ table {
 	font-weight: 700;
 	line-height: 100px; /* Approximation due to font substitution */
 	text-align: center;
-	transform: scaleX(1.0015);/* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
 	text-transform: uppercase;
 	letter-spacing: 18px;
 	
@@ -71,4 +71,109 @@ header {
 	text-align: center;
 }
 
+.caption { 
+	font-family: 'Montserrat', sans-serif;
+	color: #010101;
+	font-size: 48px; /* Approximation due to font substitution */
+	font-weight: 700;
+	line-height: 100px; /* Approximation due to font substitution */
+	text-align: left;
+	text-transform: uppercase;
+}
 
+.text-paragraph {
+	font-family: 'Montserrat', sans-serif;
+	color: #464646;
+	font-size: 15px; /* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 25px; /* Approximation due to font substitution */
+	text-align: left;
+}
+
+.link-learn-more {
+	font-family: 'Montserrat', sans-serif;
+	color: #000000;
+	font-size: 14px; /* Approximation due to font substitution */
+	font-weight: 700;
+	line-height: 70px; /* Approximation due to font substitution */
+	text-align: left;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.white-block {
+	margin-top: -50px;
+	width: 50%;
+	height: 50px;
+	background-color: #fff;
+}
+
+.wr-product-01 {
+	padding-top: 91px;
+	padding-right: 185px;
+	width: 1235px;
+	margin: 0 auto;
+	text-align: right;
+}
+
+.products-01 {
+
+}
+
+.wr-caption {
+	padding-top: 100px;
+	width: 370px;
+	float: left;
+	text-align: left;
+	padding-left: 30px;
+}
+
+.position-left {
+	width: 160px;
+	float: left;
+	padding-top: 146px;
+	text-align: right;
+
+}
+
+.line-01 {
+	border-width: 1px;
+	border-color: #000000;
+	background-color: #000000;
+	border-style: solid;
+	width: 151px;
+	height: 1px;
+	display: inline-block;
+}
+
+.line-02 {
+	background-color: #bea67c;
+	width: 44px;
+	height: 4px;
+	display: inline-block;
+	margin-top: 54px;
+}
+
+.number-block {
+	font-family: 'Montserrat', sans-serif;
+	color: #000000;
+	font-size: 36px; /* Approximation due to font substitution */
+	font-weight: 700;
+	line-height: 100px; /* Approximation due to font substitution */
+	text-align: left;
+	margin-top: 135px;
+}
+
+.number-block span{
+	font-family: 'Montserrat', sans-serif;
+	color: #bea67c;
+	font-size: 36px; /* Approximation due to font substitution */
+	font-weight: 700;
+	line-height: 100px; /* Approximation due to font substitution */
+	text-align: left;
+
+}
+
+.wr-product-02 {
+	padding-top: 300px;
+}
