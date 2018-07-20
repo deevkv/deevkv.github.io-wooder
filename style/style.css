@@ -42,9 +42,12 @@ table {
 	border-spacing: 0;
 }
 
+
 .wrapper {
 	width: 100%;
 	margin: 0 auto;
+	min-width: 1235px;
+	
 }
 
 .home {
@@ -129,7 +132,7 @@ header {
 }
 
 .white-block {
-	margin-top: -49px;
+	margin-top: -47px;
 	width: 53%;
 	height: 50px;
 	background-color: #fff;
