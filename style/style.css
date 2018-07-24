@@ -152,7 +152,7 @@ header img {
 	color: #000000;
 	font-size: 14px; /* Approximation due to font substitution */
 	font-weight: 700;
-	line-height: 70px; /* Approximation due to font substitution */
+	line-height: 35px; /* Approximation due to font substitution */
 	text-align: left;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -207,6 +207,20 @@ header img {
 	margin-top: 54px;
 }
 
+.link-pro-02 {
+	float: right;
+}
+
+.wr-link-learn-more {
+	width: 100px;
+	padding-top: 20px;
+}
+
+.line-bottom {
+	background-color:  #a9946e;
+	width: 44px;
+	height: 2px;
+}
 .number-block {
 	font-family: 'Montserrat', sans-serif;
 	color: #000000;
