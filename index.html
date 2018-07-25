@@ -8,19 +8,32 @@
 	<script src="https://use.fontawesome.com/5030cf824b.js"></script>
 </head>
 <body>
-<div class="menu-fixed">	
-	</div>
+<div class="menu-fixed">
+	<div class="line-fixed"></div>
+	<div class="number-fixed">01</div>
+	<nav id="menu">
+		<ul>
+			<a href="#home"><li href="#about"class="marker-fixed"><span class="text-fixed">home<span></li>
+			</a>
+			<a href="#product01"><li class="marker-fixed"><span class="text-fixed">furniture<span></li></a>
+			<a href="#product02"><li class="marker-fixed"><span class="text-fixed">decor<span></li></a>
+			<a href="#gallery"><li class="marker-fixed"><span class="text-fixed">video<span></li></a>
+			<a href="#desing"><li class="marker-fixed"><span class="text-fixed">design<span></li></a>
+			<a href="#about"><li class="marker-fixed"><span class="text-fixed">about<span></li></a>
+		</ul>
+	</nav>	
+</div>
 <div class="wrapper">
 	<div class="background-home-header">
-		<header>
+		<header id="home">
 			<div class="wr-menu-header-center">
 				<div class="sidebar"></div>
 				<img src="img/logo.png" alt="Logo" class="logo">
-				<nav class="menu-header">
+				<nav id="headerMenu" class="menu-header">
 					<ul>
-						<li><a href=""></a>home</li>
-						<li><a href=""></a>product</li>
-						<li><a href=""></a>about</li>
+						<li><a href="#product01">product</a></li>
+						<li><a href="#desing">desing</a></li>
+						<li><a href="#about">about</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -38,7 +51,7 @@
 			</div>
 		</article>
 	</div>
-	<article class="products-01">
+	<article id="product01" class="products-01">
 		<div class="white-block"></div>
 		<div class="wr-product-01">
 			<div class="line-rigth-products-01"></div>
@@ -61,7 +74,7 @@
 			</div>
 		</div>	
 	</article>
-	<article class="products-02">
+	<article id="product02" class="products-02">
 		<div class="wr-product-02">	
 			<div class="wr-content-product-02">
 				<div class="line-left-products-02"></div>
@@ -84,7 +97,7 @@
 			</div>
 		</div>	
 	</article>
-	<article class="gallery-video">
+	<article id="gallery" class="gallery-video">
 		<div class="wr-content-gallery-video">
 			<div class="wr-content-caption">
 				<h2 class="caption-video">wooder - is quality</h2>
@@ -110,7 +123,7 @@
 			</div>
 		</div>
 	</article>
-	<article class="design-video">
+	<article id="desing" class="design-video">
 		<div class="border-content-design-video">
 			<div class="position-left-video">
 				<div class="line-01 color-white"></div>
@@ -124,7 +137,7 @@
 		</div>
 		</div>
 	</article>
-	<article class="about">
+	<article id="about" class="about">
 		<div class="wr-content-about">
 			<img src="img/about.png" alt="">
 			<div class="position-about">
@@ -147,5 +160,9 @@
 			<div class="footer-autograph">Designed by<span>Viacheslav Olianishyn</span></div>
 	</footer>
 </div>	<!-- wrapper -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="js/scroll.js"></script> 
+
 </body>
 </html> 
