@@ -13,13 +13,12 @@
 	<div class="number-fixed">01</div>
 	<nav id="menu">
 		<ul>
-			<a href="#home"><li href="#about"class="marker-fixed"><span class="text-fixed">home<span></li>
-			</a>
-			<a href="#product01"><li class="marker-fixed"><span class="text-fixed">furniture<span></li></a>
-			<a href="#product02"><li class="marker-fixed"><span class="text-fixed">decor<span></li></a>
-			<a href="#gallery"><li class="marker-fixed"><span class="text-fixed">video<span></li></a>
-			<a href="#desing"><li class="marker-fixed"><span class="text-fixed">design<span></li></a>
-			<a href="#about"><li class="marker-fixed"><span class="text-fixed">about<span></li></a>
+			<li href="#about"class="marker-fixed"><a href="#home"><span class="text-fixed">home<span></a></li>
+			<li class="marker-fixed"><a href="#product01"><span class="text-fixed">furniture<span></a></li>
+			<li class="marker-fixed"><a href="#product02"><span class="text-fixed">decor<span></a></li>
+			<li class="marker-fixed"><a href="#gallery"><span class="text-fixed">video<span></a></li>
+			<li class="marker-fixed"><a href="#desing"><span class="text-fixed">design<span></a></li>
+			<li class="marker-fixed"><a href="#about"><span class="text-fixed">about<span></a></li>
 		</ul>
 	</nav>	
 </div>
@@ -132,9 +131,15 @@
 			<div class="wr-content-design-video">
 				<h2>we do the design of any complexity</h2>
 				<p>This is a team of professionals that make the furniture and wood décor high standard. Creating modern designs. Adhering to the global quality standards. And we are doing work with love.</p>
-				<a href="#" class="button-learn-more padding-top">watch video</a>
+				<a href="javascript:PopUpShow()" class="button-learn-more padding-top">watch video</a>
 			</div>
 		</div>
+		<div class="b-popup" id="popup1">
+    		<div class="b-popup-content">
+        	Text in Popup
+        	<iframe width="860" height="615" src="https://www.youtube.com/embed/kB9K9xIdDf4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    		<a href="javascript:PopUpHide()">Hide popup</a>
+    		</div>
 		</div>
 	</article>
 	<article id="about" class="about">
@@ -161,8 +166,8 @@
 	</footer>
 </div>	<!-- wrapper -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
 <script src="js/scroll.js"></script> 
+<script type="text/javascript" src="js/popup.js"></script>
 
 </body>
 </html> 
