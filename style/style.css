@@ -53,7 +53,7 @@ table {
 .home {
 	/*background-color: #000;*/
 	height: 689px; /*1042px*/
-	padding-top: 353px;
+	padding-top: 345px;
 	padding-left: 20px;
 }
 
@@ -67,9 +67,13 @@ table {
 	text-transform: uppercase;
 	letter-spacing: 18px;
 }
+.background-color-black {
+	background-color: #000;
+}
 
 .background-home-header {
-	background: url(../img/video-background.jpg) center fixed;
+	position: relative;
+	background: url(../img/video-background.jpg) fixed;
 }
 
 header {
@@ -79,7 +83,7 @@ header {
 .wr-menu-header-center {
 	width: 1024px;
 	margin: 0 auto;
-	padding-top: 20px;
+	padding-top: 30px;
 }
 
 header img {
@@ -132,6 +136,7 @@ header img {
 	line-height: 50px; 
 	text-transform: uppercase;
 	text-decoration: none;
+	position: relative;
 }
 
 .button-learn-more:hover {
@@ -171,10 +176,24 @@ header img {
 }
 
 .white-block {
-	margin-top: -47px;
-	width: 53%;
+	position: relative;
+	top: 1015px;
 	height: 50px;
 	background-color: #fff;
+}
+
+.background-02-block {
+	/*margin-top: -1065px;*/
+	/*margin-top: -47px;*/
+	width: 53%;
+	height: 1060px;
+	background: url(../img/background-home.png) no-repeat fixed;
+	background-size: cover;
+	position: absolute;
+}
+
+.wr-center-content-home {
+	position: relative;
 }
 
 .wr-product-01 {
@@ -580,6 +599,7 @@ footer > span {
 	top: 296px;
 	left: 100px;
 	width: 50px;
+	z-index: 2;
 }
 
 .number-fixed {
