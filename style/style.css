@@ -227,7 +227,7 @@ nav a {
 	/*margin-top: -47px;*/
 	width: 53%;
 	height: 1060px;
-	background: url(../img/background-home.png) no-repeat fixed;
+	background: url(../img/background-home.jpg) no-repeat fixed;
 	background-size: cover;
 	position: absolute;
 }
@@ -714,6 +714,7 @@ footer > span {
 }
 a {
 	text-decoration: none;
+	outline: none
 }
 
 .marker-fixed:hover {
