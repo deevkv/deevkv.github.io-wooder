@@ -372,7 +372,7 @@ nav a {
 }
 
 .gallery-video {
-	margin-bottom: 155px;
+	padding-bottom: 212px;
 }
 
 
@@ -451,6 +451,25 @@ nav a {
 	position: absolute;
 	margin: auto;
 	top: 0; left: 7px; bottom: 0; right: 0;
+}
+
+.line-video-gallery {
+	border-width: 1px;
+	border-color:  #bea67c;
+	border-style: solid;
+	width: 25px;
+	margin: 0 auto;
+	margin-top: 36px;
+}
+
+.signature-video-circle {
+	font-family: 'Montserrat', sans-serif;
+	color:  #000000;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	text-align: center;
+	padding-top: 21px;
 }
 
 .wr-content-video {
@@ -647,7 +666,7 @@ footer > span {
 
 .menu-fixed {
 	position: fixed;
-	top: 32%;
+	top: 350px;
 	left: 100px;
 	width: 50px;
 	z-index: 2;
@@ -719,23 +738,29 @@ a {
 	opacity: 1;
 }
 
-.b-popup{
-    width:100%;
-    min-height:100%;
-    background-color: rgba(0,0,0,0.5);
-    overflow:hidden;
-    position:fixed;
-    top:0px;
-    z-index: 1;
+.mfp-fade.mfp-bg {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out; 
+	-moz-transition: all 0.15s ease-out; 
+	transition: all 0.15s ease-out;
 }
-.b-popup .b-popup-content{
-    margin: 120px auto 0px auto;
-    width: 861px;
-    height: 650px;
-    padding:10px;
-    background-color: #000;
-    border-radius:5px;
-    box-shadow: 0px 0px 10px #000;
+.mfp-fade.mfp-bg.mfp-ready {
+	opacity: 0.8;
+}
+.mfp-fade.mfp-bg.mfp-removing {
+	opacity: 0;
 }
 
+.mfp-fade.mfp-wrap .mfp-content {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out; 
+	-moz-transition: all 0.15s ease-out; 
+	transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+	opacity: 1;
+}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+	opacity: 0;
+}
 

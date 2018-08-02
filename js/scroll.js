@@ -31,7 +31,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function() {
-	$('#menu, #headerMenu').on('click','a', function (event) {
+	$('#menu, #headerMenu, #learnBottomHome').on('click','a', function (event) {
 		event.preventDefault();
 		var id = $(this).attr('href'),
 		top = $(id).offset().top;
