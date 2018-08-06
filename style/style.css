@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	width: 100%;
 }
 ol, ul {
 	list-style: none;
@@ -47,7 +48,6 @@ table {
 	width: 100%;
 	margin: 0 auto;
 	min-width: 1235px;
-	
 }
 
 .home {
@@ -276,6 +276,10 @@ nav a {
 	height: 4px;
 	display: inline-block;
 	margin-top: 54px;
+}
+
+.line-video {
+	margin-top: 152px;
 }
 
 .link-pro-02 {
