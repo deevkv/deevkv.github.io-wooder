@@ -108,7 +108,6 @@ header img {
 	line-height: 27px;/* Приближение из-за подстановки шрифтов */
 	text-align: left;
 	text-transform: uppercase;
-
 	margin-right: 59px;
 	margin-left: 59px;
 	text-decoration: none;
@@ -153,6 +152,23 @@ nav a {
 .wr-home-content {
 	width: 608px;
 	margin: 0 auto;
+	position: relative;
+}
+
+.mouse-scroll {
+	margin-top: 68px;
+}
+
+.text-home-1 {
+	font-family:'Montserrat', sans-serif;
+	color:  #bea67c;
+	font-size: 13.63px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 100px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+/*	transform: scaleY(1.0295) rotate(90deg);*/
+	position: absolute;
+	left: 1000px;
 }
 
 .button-learn-more {
@@ -237,6 +253,7 @@ nav a {
 }
 
 .wr-product-01 {
+	position: relative;
 	padding-top: 91px;
 	width: 1235px;
 	margin: 0 auto;
@@ -278,6 +295,45 @@ nav a {
 	margin-top: 54px;
 }
 
+.line-block {
+	background-color:  #a9946e;
+	width: 4px;
+	height: 51px;
+	left: 1218px;
+	top: -27px;
+	position: absolute;
+}
+
+.line-block-02 {
+	background-color:  #a9946e;
+	width: 4px;
+	height: 51px;
+	left: 50px;
+	top: 112px;
+	position: absolute;
+}
+
+.line-block-video {
+	background-color:  #a9946e;
+	width: 4px;
+	height: 51px;
+	left: 1200px;
+	top: 74px;
+	position: absolute;
+}
+
+.line-block-design {
+	border-width: 1px;
+	border-color:  #ffffff;
+	background-color: #ffffff;
+	border-style: solid;
+	width: 1px;
+	height: 151px;
+	position: absolute;
+	left: 1340px;
+	top: 275px;
+}
+
 .line-video {
 	margin-top: 152px;
 }
@@ -288,7 +344,7 @@ nav a {
 
 .wr-link-learn-more {
 	width: 120px;
-	padding-top: 20px;
+	padding-top: 19px;
 }
 
 .link-learn-more:hover .line-bottom {
@@ -310,6 +366,7 @@ nav a {
 	line-height: 100px; /* Approximation due to font substitution */
 	text-align: left;
 	margin-top: 135px;
+	margin-left: 30px;
 }
 
 .number-block span{
@@ -331,6 +388,7 @@ nav a {
 	padding-top: 281px;
 	width: 1235px;
 	margin: 0 auto;
+	position: relative;
 }
 
 .position-left {
@@ -385,6 +443,7 @@ nav a {
 	width: 1235px;
 	margin: 0 auto;
 	text-align: center;
+	position: relative;
 }
 
 .gallery-video:hover .line-caption{
@@ -514,7 +573,9 @@ nav a {
 	width: 100%;
 	height: 825px;
 /*	background-color: #000;*/
-	background: url(../img/video-background.jpg) center fixed;
+	background: url(../img/play-bg.png)  775px 40px no-repeat,
+				url(../img/video-background.jpg) center fixed;
+
 }
 
 .color-white {
@@ -531,6 +592,7 @@ nav a {
 	border-style: solid;
 	width: 80%;
 	height: 535px;
+	position: relative;
 }
 
 .wr-content-design-video {
