@@ -47,7 +47,7 @@ table {
 .wrapper {
 	width: 100%;
 	margin: 0 auto;
-	min-width: 1235px;
+	min-width: 1375px;
 }
 
 .home {
@@ -157,18 +157,6 @@ nav a {
 
 .mouse-scroll {
 	margin-top: 68px;
-}
-
-.text-home-1 {
-	font-family:'Montserrat', sans-serif;
-	color:  #bea67c;
-	font-size: 13.63px;/* Приближение из-за подстановки шрифтов */
-	font-weight: 700;
-	line-height: 100px;/* Приближение из-за подстановки шрифтов */
-	text-align: left;
-/*	transform: scaleY(1.0295) rotate(90deg);*/
-	position: absolute;
-	left: 1000px;
 }
 
 .button-learn-more {
@@ -330,7 +318,7 @@ nav a {
 	width: 1px;
 	height: 151px;
 	position: absolute;
-	left: 1340px;
+	left: 93%;
 	top: 275px;
 }
 
